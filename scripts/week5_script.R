@@ -17,3 +17,4 @@ ggplot(diamonds,aes(carat,price))+
   geom_hex()+
   labs(title='Hexagon Binning:Diamond Structure',x='carat',y='price')+
   theme_minimal()
+
